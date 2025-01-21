@@ -1016,3 +1016,8 @@
 2025-01-22 00:41:49,721 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:49.721728', 'device_id': 'securespace_bridge'}
 2025-01-22 00:41:49,929 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:49.929117', 'device_id': 'securespace_bridge'}
 2025-01-22 00:41:50,030 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:50.030308', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:50,239 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:50.239563', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:50,344 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:50.344341', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:50,545 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:50.545483', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:50,646 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:50.646344', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:50,850 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:50.850271', 'device_id': 'securespace_bridge'}
