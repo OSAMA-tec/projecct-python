@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureSpace Motion Monitor (CoAP)</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .status-card {
+            transition: all 0.3s ease;
+        }
+        .motion-detected {
+            background-color: #ffd700 !important;
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .event-list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .status-indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .status-connected {
+            background-color: #28a745;
+        }
+        .status-disconnected {
+            background-color: #dc3545;
+        }
+        .connection-controls {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Header -->
+        <div class="row mb-4">
+            <div class="col">
+                <h1 class="display-4">SecureSpace Motion Monitor (CoAP)</h1>
+                <div class="connection-status">
+                    <span class="status-indicator" id="connectionIndicator"></span>
+                    <span id="connectionStatus">Disconnected</span>
+                </div>
+                <div class="connection-controls">
+                    <button class="btn btn-primary btn-sm" onclick="startPolling()">Start Monitoring</button>
+                    <button class="btn btn-danger btn-sm" onclick="stopPolling()">Stop Monitoring</button>
+                    <button class="btn btn-warning btn-sm" onclick="resetCounters()">Reset Counters</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Current Status Card -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card status-card" id="currentStatus">
+                    <div class="card-body">
+                        <h5 class="card-title">Current Status</h5>
+                        <p class="card-text" id="statusText">No motion detected</p>
+                        <p class="card-text"><small class="text-muted" id="lastUpdate">Last updated: Never</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Statistics</h5>
+                        <p>Motion Events Today: <span id="motionCount">0</span></p>
+                        <p>Last Motion: <span id="lastMotion">Never</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Event Log -->
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Log</h5>
+                        <div class="event-list" id="eventLog">
+                            <!-- Events will be added here dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // CoAP Configuration
+        const COAP_CONFIG = {
+            server: 'coap://127.0.0.1:5683',  // Direct CoAP connection
+            resource: 'motion',
+            wsProxy: 'ws://127.0.0.1:8080'    // WebSocket proxy for browser
+        };
+
+        let motionCount = parseInt(localStorage.getItem('motionCount') || '0');
+        let lastMotionTime = localStorage.getItem('lastMotionTime') || 'Never';
+        let pollingInterval = null;
+        let isPolling = false;
+        let ws = null;
+        let reconnectAttempts = 0;
+        const MAX_RECONNECT_ATTEMPTS = 5;
+        const RECONNECT_DELAY = 3000; // 3 seconds
+        let isConnecting = false;
+
+        // Initialize UI and WebSocket
+        window.onload = function() {
+            document.getElementById('motionCount').textContent = motionCount;
+            document.getElementById('lastMotion').textContent = lastMotionTime;
+            updateConnectionStatus(false);
+        };
+
+        function startPolling() {
+            if (isPolling) return;
+            isPolling = true;
+            connectWebSocket();
+            updateConnectionStatus(true);
+            addEventLog('System', 'Started monitoring');
+        }
+
+        function stopPolling() {
+            if (!isPolling) return;
+            isPolling = false;
+            if (ws) {
+                ws.close();
+                ws = null;
+            }
+            updateConnectionStatus(false);
+            addEventLog('System', 'Stopped monitoring');
+        }
+
+        function resetCounters() {
+            motionCount = 0;
+            lastMotionTime = 'Never';
+            localStorage.setItem('motionCount', '0');
+            localStorage.setItem('lastMotionTime', 'Never');
+            document.getElementById('motionCount').textContent = '0';
+            document.getElementById('lastMotion').textContent = 'Never';
+            document.getElementById('eventLog').innerHTML = '';
+            addEventLog('System', 'Counters reset');
+        }
+
+        function connectWebSocket() {
+            if (isConnecting || ws?.readyState === WebSocket.OPEN) {
+                return; // Already connecting or connected
+            }
+
+            isConnecting = true;
+            updateConnectionStatus('connecting');
+
+            try {
+                ws = new WebSocket(COAP_CONFIG.wsProxy);
+                
+                ws.onopen = function() {
+                    console.log('WebSocket connected');
+                    isConnecting = false;
+                    reconnectAttempts = 0;
+                    updateConnectionStatus(true);
+                    addEventLog('System', 'Connected to server');
+                    
+                    // Subscribe to CoAP resource
+                    ws.send(JSON.stringify({
+                        type: 'subscribe',
+                        resource: COAP_CONFIG.resource
+                    }));
+                };
+                
+                ws.onmessage = function(event) {
+                    try {
+                        const data = JSON.parse(event.data);
+                        handleMotionData(data);
+                    } catch (error) {
+                        console.error('Error processing message:', error);
+                    }
+                };
+                
+                ws.onclose = function() {
+                    console.log('WebSocket closed');
+                    isConnecting = false;
+                    updateConnectionStatus(false);
+                    
+                    if (isPolling && reconnectAttempts < MAX_RECONNECT_ATTEMPTS) {
+                        reconnectAttempts++;
+                        addEventLog('System', `Connection lost. Reconnecting... (Attempt ${reconnectAttempts}/${MAX_RECONNECT_ATTEMPTS})`);
+                        setTimeout(connectWebSocket, RECONNECT_DELAY);
+                    } else if (reconnectAttempts >= MAX_RECONNECT_ATTEMPTS) {
+                        addEventLog('Error', 'Max reconnection attempts reached. Please refresh the page.');
+                        stopPolling();
+                    }
+                };
+                
+                ws.onerror = function(error) {
+                    console.error('WebSocket error:', error);
+                    isConnecting = false;
+                    updateConnectionStatus(false);
+                    addEventLog('Error', 'Connection error occurred');
+                };
+                
+            } catch (error) {
+                console.error('Error creating WebSocket:', error);
+                isConnecting = false;
+                updateConnectionStatus(false);
+            }
+        }
+
+        function handleMotionData(data) {
+            // Update UI based on message type
+            const currentTime = new Date().toLocaleTimeString();
+            
+            if (data.type === 'sensor_reading') {
+                updateStatus(data.status === 'motion', currentTime);
+            } else if (data.type === 'event' && data.event === 'motion_detected') {
+                incrementMotionCount();
+                addEventLog('Motion', 'Motion detected!');
+            }
+            
+            document.getElementById('lastUpdate').textContent = `Last updated: ${currentTime}`;
+        }
+
+        function updateStatus(isMotion, timestamp) {
+            const statusText = document.getElementById('statusText');
+            const statusCard = document.getElementById('currentStatus');
+            
+            statusText.textContent = isMotion ? 'Motion Detected!' : 'No Motion';
+            statusCard.className = isMotion ? 
+                'card status-card motion-active' : 
+                'card status-card';
+                
+            if (isMotion) {
+                document.getElementById('lastMotion').textContent = timestamp;
+                localStorage.setItem('lastMotionTime', timestamp);
+            }
+        }
+
+        function updateConnectionStatus(status) {
+            const statusElement = document.getElementById('connectionStatus');
+            if (status === 'connecting') {
+                statusElement.textContent = 'Connecting...';
+                statusElement.className = 'connecting';
+            } else if (status === true) {
+                statusElement.textContent = 'Connected';
+                statusElement.className = 'connected';
+            } else {
+                statusElement.textContent = 'Disconnected';
+                statusElement.className = 'disconnected';
+            }
+        }
+
+        function incrementMotionCount() {
+            motionCount++;
+            document.getElementById('motionCount').textContent = motionCount;
+            localStorage.setItem('motionCount', motionCount.toString());
+        }
+
+        function addEventLog(type, message) {
+            const eventLog = document.getElementById('eventLog');
+            const timestamp = new Date().toLocaleTimeString();
+            const eventDiv = document.createElement('div');
+            eventDiv.className = 'event-item';
+            eventDiv.innerHTML = `<span class="event-time">${timestamp}</span> <span class="event-type">${type}:</span> ${message}`;
+            eventLog.insertBefore(eventDiv, eventLog.firstChild);
+            
+            // Limit the number of events shown
+            while (eventLog.children.length > 50) {
+                eventLog.removeChild(eventLog.lastChild);
+            }
+        }
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

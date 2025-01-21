@@ -1,0 +1,182 @@
+CoAP Motion Sensor System Documentation
+=====================================
+
+1. System Overview
+-----------------
+The CoAP Motion Sensor System is a real-time motion detection solution that uses:
+- Arduino for motion sensing
+- CoAP protocol for data transmission
+- WebSocket proxy for browser support
+- Web interface for visualization
+
+Architecture Diagram:
+                                                    
+    +-------------+         +--------------+         +----------------+         +-------------+
+    |   Arduino   | Serial  | CoAP Server  | CoAP   |   WebSocket   | WS      |    Web     |
+    | Motion      |-------->| (CoAPiot.py) |------->|    Proxy      |-------->|   Client   |
+    | Sensor      |         |              |         |               |         |            |
+    +-------------+         +--------------+         +----------------+         +-------------+
+
+2. Components
+------------
+a) Arduino Motion Sensor:
+   - Detects physical motion
+   - Sends data via serial port
+   - Provides real-time sensor readings
+
+b) CoAP Server (CoAPiot.py):
+   - Reads serial data from Arduino
+   - Processes and formats sensor data
+   - Publishes updates to observers
+   - Handles CoAP GET/POST requests
+
+c) WebSocket Proxy:
+   - Bridges CoAP to WebSocket
+   - Enables browser connectivity
+   - Handles real-time updates
+
+d) Web Interface:
+   - Shows real-time motion status
+   - Displays event history
+   - Provides system statistics
+
+3. Data Flow
+-----------
+1. Motion Detection:
+   Arduino -> Serial Data -> CoAP Server -> WebSocket -> Browser
+
+2. Status Updates:
+   System Events -> CoAP Server -> WebSocket -> Browser
+
+3. Client Requests:
+   Browser -> WebSocket -> CoAP Server -> Response
+
+4. Message Types
+--------------
+a) Sensor Reading:
+   {
+     "type": "sensor_reading",
+     "value": 1/0,              // 1=motion, 0=no motion
+     "status": "motion"/"no_motion",
+     "timestamp": "ISO-8601",
+     "device_id": "hostname"
+   }
+
+b) Motion Event:
+   {
+     "type": "event",
+     "event": "motion_detected",
+     "value": 1,
+     "timestamp": "ISO-8601",
+     "device_id": "hostname"
+   }
+
+c) System Status:
+   {
+     "type": "status",
+     "status": "system_starting"/"sensor_ready",
+     "timestamp": "ISO-8601",
+     "device_id": "hostname"
+   }
+
+5. Configuration
+--------------
+Environment Variables (.env):
+
+a) CoAP Settings:
+   - COAP_HOST=127.0.0.1
+   - COAP_PORT=5683
+   - COAP_RESOURCE_PATH=motion
+
+b) Serial Settings:
+   - SERIAL_PORT=/dev/cu.usbserial-1430
+   - SERIAL_BAUD=9600
+
+6. Setup Instructions
+-------------------
+1. Hardware Setup:
+   - Connect Arduino with motion sensor
+   - Note the serial port connection
+
+2. Software Setup:
+   a) Install dependencies:
+      ```bash
+      pip install aiocoap pyserial python-dotenv websockets
+      ```
+   
+   b) Configure environment:
+      - Create .env file
+      - Set required variables
+   
+   c) Start services:
+      ```bash
+      # Start CoAP server
+      python CoAPiot.py
+      
+      # Start WebSocket proxy
+      python coap_ws_proxy.py
+      
+      # Open web interface
+      open coapIndex.html
+      ```
+
+7. Error Handling
+---------------
+a) Serial Connection:
+   - Retries on connection loss
+   - Logs connection errors
+   - Graceful cleanup
+
+b) CoAP Server:
+   - Handles binding errors
+   - Manages observer lifecycle
+   - Proper shutdown sequence
+
+c) WebSocket:
+   - Automatic reconnection
+   - Error reporting to UI
+   - Connection status updates
+
+8. Monitoring
+-----------
+a) Logging:
+   - File: motion_sensor.log
+   - Console output
+   - Timestamp and severity
+
+b) Web Interface:
+   - Connection status
+   - Event history
+   - Motion statistics
+
+9. Best Practices
+---------------
+1. Always check serial port permissions
+2. Monitor log files for errors
+3. Use proper shutdown sequence
+4. Keep web interface open for monitoring
+5. Regular system health checks
+
+10. Troubleshooting
+-----------------
+Common Issues:
+
+1. Serial Port Access:
+   - Check permissions
+   - Verify port name
+   - Reset Arduino if needed
+
+2. CoAP Server:
+   - Verify port availability
+   - Check binding address
+   - Monitor server logs
+
+3. WebSocket Connection:
+   - Check proxy status
+   - Verify WebSocket URL
+   - Clear browser cache
+
+4. Data Flow:
+   - Monitor serial data
+   - Check CoAP messages
+   - Verify WebSocket events 

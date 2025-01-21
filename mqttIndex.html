@@ -38,6 +38,25 @@
         .status-disconnected {
             background-color: #dc3545;
         }
+        /* Prevent accidental refresh */
+        html {
+            overscroll-behavior: none;
+        }
+        body {
+            overscroll-behavior: none;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+        }
+        .btn-reset {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .connection-controls {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -49,6 +68,10 @@
                 <div class="connection-status">
                     <span class="status-indicator" id="connectionIndicator"></span>
                     <span id="connectionStatus">Disconnected</span>
+                </div>
+                <div class="connection-controls">
+                    <button class="btn btn-primary btn-sm" onclick="reconnect()">Reconnect</button>
+                    <button class="btn btn-danger btn-sm" onclick="resetCounters()">Reset Counters</button>
                 </div>
             </div>
         </div>
@@ -91,7 +114,7 @@
     </div>
 
     <script>
-        // MQTT Configuration - Replace with your HiveMQ Cloud details
+        // MQTT Configuration
         const MQTT_CONFIG = {
             host: 'fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud',
             port: 8884,
@@ -100,59 +123,152 @@
             clientId: 'web_monitor_' + Math.random().toString(16).substr(2, 8)
         };
 
-        let client;
-        let motionCount = 0;
+        let client = null;
+        let motionCount = parseInt(localStorage.getItem('motionCount') || '0');
+        let isConnecting = false;
+        let reconnectTimeout = null;
+        let lastMotionTime = localStorage.getItem('lastMotionTime') || 'Never';
+        let autoReconnect = true;
+
+        function resetCounters() {
+            motionCount = 0;
+            lastMotionTime = 'Never';
+            localStorage.setItem('motionCount', '0');
+            localStorage.setItem('lastMotionTime', 'Never');
+            document.getElementById('motionCount').textContent = '0';
+            document.getElementById('lastMotion').textContent = 'Never';
+            document.getElementById('eventLog').innerHTML = '';
+            addEventLog('System', 'Counters reset');
+        }
+
+        function reconnect() {
+            if (client && client.isConnected()) {
+                client.disconnect();
+            }
+            connect();
+        }
+
+        // Initialize UI with stored values
+        window.onload = function() {
+            document.getElementById('motionCount').textContent = motionCount;
+            document.getElementById('lastMotion').textContent = lastMotionTime;
+            
+            // Prevent accidental refresh
+            window.addEventListener('beforeunload', function(e) {
+                e.preventDefault();
+                e.returnValue = '';
+            });
+
+            // Handle page visibility
+            document.addEventListener('visibilitychange', handleVisibilityChange);
+            
+            // Start connection
+            connect();
+        };
+
+        function handleVisibilityChange() {
+            if (document.visibilityState === 'visible' && autoReconnect) {
+                if (!client || !client.isConnected()) {
+                    console.log('Page visible, reconnecting...');
+                    connect();
+                }
+            }
+        }
 
         function connect() {
-            client = new Paho.MQTT.Client(
-                MQTT_CONFIG.host,
-                MQTT_CONFIG.port,
-                MQTT_CONFIG.clientId
-            );
+            if (isConnecting) return;
+            isConnecting = true;
 
-            client.onConnectionLost = onConnectionLost;
-            client.onMessageArrived = onMessageArrived;
+            try {
+                if (client) {
+                    try {
+                        client.disconnect();
+                    } catch (e) {
+                        console.log('Disconnect error:', e);
+                    }
+                }
 
-            // Connect with SSL/TLS
-            client.connect({
-                useSSL: true,
-                userName: MQTT_CONFIG.username,
-                password: MQTT_CONFIG.password,
-                onSuccess: onConnect,
-                onFailure: onFailure
-            });
+                client = new Paho.MQTT.Client(
+                    MQTT_CONFIG.host,
+                    MQTT_CONFIG.port,
+                    MQTT_CONFIG.clientId
+                );
+
+                client.onConnectionLost = onConnectionLost;
+                client.onMessageArrived = onMessageArrived;
+
+                const connectOptions = {
+                    useSSL: true,
+                    userName: MQTT_CONFIG.username,
+                    password: MQTT_CONFIG.password,
+                    onSuccess: onConnect,
+                    onFailure: onFailure,
+                    keepAliveInterval: 60,
+                    cleanSession: true,
+                    timeout: 10
+                };
+
+                console.log('Attempting to connect to MQTT broker...');
+                client.connect(connectOptions);
+
+            } catch (error) {
+                console.error('Connection error:', error);
+                handleConnectionFailure();
+            }
+        }
+
+        function handleConnectionFailure() {
+            isConnecting = false;
+            updateConnectionStatus(false);
+            
+            if (reconnectTimeout) {
+                clearTimeout(reconnectTimeout);
+            }
+            
+            if (autoReconnect) {
+                reconnectTimeout = setTimeout(connect, 5000);
+            }
         }
 
         function onConnect() {
             console.log('Connected to MQTT broker');
+            isConnecting = false;
             updateConnectionStatus(true);
-            client.subscribe('securespace/motion');
-            addEventLog('System', 'Connected to MQTT broker');
+            
+            try {
+                client.subscribe('securespace/motion');
+                addEventLog('System', 'Connected to MQTT broker');
+            } catch (error) {
+                console.error('Subscription error:', error);
+                handleConnectionFailure();
+            }
         }
 
         function onFailure(error) {
             console.error('Failed to connect:', error);
-            updateConnectionStatus(false);
+            handleConnectionFailure();
             addEventLog('Error', 'Connection failed: ' + error.errorMessage);
-            // Retry connection after 5 seconds
-            setTimeout(connect, 5000);
         }
 
         function onConnectionLost(responseObject) {
+            isConnecting = false;
             if (responseObject.errorCode !== 0) {
                 console.log('Connection lost:', responseObject.errorMessage);
                 updateConnectionStatus(false);
                 addEventLog('System', 'Connection lost: ' + responseObject.errorMessage);
-                // Retry connection
-                setTimeout(connect, 5000);
+                handleConnectionFailure();
             }
         }
 
         function onMessageArrived(message) {
-            console.log('Message arrived:', message.payloadString);
-            const data = JSON.parse(message.payloadString);
-            updateUI(data);
-            addEventLog('Sensor', formatEventMessage(data));
+            try {
+                console.log('Message arrived:', message.payloadString);
+                const data = JSON.parse(message.payloadString);
+                updateUI(data);
+                addEventLog('Sensor', formatEventMessage(data));
+            } catch (error) {
+                console.error('Error processing message:', error);
+            }
         }
 
         function updateUI(data) {
@@ -163,14 +279,20 @@
             const lastMotion = document.getElementById('lastMotion');
 
             // Update last update time
-            lastUpdate.textContent = 'Last updated: ' + new Date().toLocaleTimeString();
+            const currentTime = new Date().toLocaleTimeString();
+            lastUpdate.textContent = 'Last updated: ' + currentTime;
 
             if (data.type === 'sensor_reading' && data.value === 1) {
                 statusText.textContent = 'Motion Detected!';
                 currentStatus.classList.add('motion-detected');
                 motionCount++;
+                // Store values in localStorage
+                localStorage.setItem('motionCount', motionCount);
+                localStorage.setItem('lastMotionTime', currentTime);
+                
                 motionCountElement.textContent = motionCount;
-                lastMotion.textContent = new Date().toLocaleTimeString();
+                lastMotion.textContent = currentTime;
+                
                 // Remove motion detected class after 3 seconds
                 setTimeout(() => {
                     currentStatus.classList.remove('motion-detected');
@@ -217,9 +339,6 @@
                 eventLog.removeChild(eventLog.lastChild);
             }
         }
-
-        // Start connection when page loads
-        window.onload = connect;
     </script>
 
     <!-- Bootstrap JS -->
