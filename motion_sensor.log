@@ -1,0 +1,316 @@
+2025-01-22 00:15:18,628 - ERROR - MQTT setup failed: [Errno 8] nodename nor servname provided, or not known
+2025-01-22 00:15:18,629 - ERROR - Failed to start bridge: [Errno 8] nodename nor servname provided, or not known
+2025-01-22 00:21:25,141 - ERROR - MQTT setup failed: [Errno 8] nodename nor servname provided, or not known
+2025-01-22 00:21:25,142 - ERROR - Failed to start bridge: [Errno 8] nodename nor servname provided, or not known
+2025-01-22 00:22:49,730 - INFO - Connecting to MQTT broker: fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud:8883
+2025-01-22 00:22:50,438 - ERROR - MQTT setup failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1020)
+2025-01-22 00:22:50,438 - ERROR - Failed to start bridge: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1020)
+2025-01-22 00:27:27,631 - INFO - Connecting to MQTT broker: fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud:8883
+2025-01-22 00:27:28,275 - INFO - MQTT client setup completed
+2025-01-22 00:27:28,275 - ERROR - Serial setup failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:27:28,275 - ERROR - Failed to start bridge: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:09,806 - INFO - Connecting to MQTT broker: fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud:8883
+2025-01-22 00:31:10,362 - INFO - MQTT client setup completed
+2025-01-22 00:31:10,362 - ERROR - Serial setup failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:10,362 - WARNING - Serial connection attempt 1 failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:10,362 - INFO - Retrying in 2 seconds...
+2025-01-22 00:31:10,691 - INFO - Connected to MQTT broker
+2025-01-22 00:31:12,365 - ERROR - Serial setup failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:12,366 - WARNING - Serial connection attempt 2 failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:12,366 - INFO - Retrying in 2 seconds...
+2025-01-22 00:31:14,369 - ERROR - Serial setup failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:14,369 - WARNING - Serial connection attempt 3 failed: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:31:14,369 - ERROR - Max retries reached. Could not establish serial connection
+2025-01-22 00:31:14,370 - ERROR - Failed to start bridge: [Errno 16] could not open port /dev/cu.usbserial-1430: [Errno 16] Resource busy: '/dev/cu.usbserial-1430'
+2025-01-22 00:32:48,400 - INFO - Connecting to MQTT broker: fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud:8883
+2025-01-22 00:32:48,962 - INFO - MQTT client setup completed
+2025-01-22 00:32:49,152 - INFO - Connected to MQTT broker
+2025-01-22 00:33:00,931 - INFO - Serial connection established on /dev/cu.usbserial-1430
+2025-01-22 00:33:00,931 - INFO - Serial connection established successfully
+2025-01-22 00:33:00,931 - INFO - Starting motion sensor bridge...
+2025-01-22 00:33:00,932 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: System Starting...
+2025-01-22 00:33:03,078 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Ready!
+2025-01-22 00:33:03,184 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:03,285 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:03,391 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:03,495 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:03,716 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:03,818 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:03,924 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:04,025 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:04,227 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:04,332 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:04,534 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:04,635 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:04,844 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:04,948 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:05,156 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:05,257 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:05,463 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:05,564 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:05,770 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:05,871 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:06,080 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:06,185 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:06,394 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:06,498 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:06,701 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:06,802 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:07,009 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:07,110 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:07,316 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:07,420 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:07,623 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:07,728 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:07,833 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:07,938 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:08,147 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:08,251 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:08,457 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:08,560 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:08,764 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:08,867 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:09,074 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:09,176 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:09,378 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:09,481 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:09,685 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:09,790 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:09,993 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:10,105 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:10,315 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:10,419 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:10,627 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:10,730 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:10,834 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:10,939 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:11,145 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:11,248 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:11,456 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:11,559 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:11,765 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:11,866 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:12,067 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:12,171 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:12,371 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:12,472 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:12,681 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:12,782 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:12,987 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:13,091 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:13,296 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:13,400 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:13,607 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:13,711 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:13,918 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:14,021 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:14,224 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:14,328 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:14,432 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:14,537 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:14,744 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:14,849 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:15,055 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:15,158 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:15,363 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:15,467 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:15,674 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:15,779 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:15,988 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:16,092 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:16,298 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:16,404 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:16,610 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:16,714 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:16,924 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:17,027 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:17,232 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:17,336 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:17,440 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:17,545 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:17,755 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:17,856 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:18,063 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:18,166 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:18,375 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:18,480 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:18,683 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:18,786 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:18,991 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:19,099 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:19,305 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:19,409 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:19,618 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:19,720 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:19,931 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:20,036 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:20,140 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:20,245 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:20,448 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:20,551 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:20,755 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:20,860 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:21,065 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:21,170 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:21,377 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:21,482 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:21,690 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:21,794 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:22,002 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:22,105 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:22,315 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:22,419 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:22,623 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:22,724 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:22,931 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:23,037 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:23,142 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:23,247 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:23,456 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:23,556 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:23,762 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:23,863 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:24,070 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:24,174 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:24,379 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:24,482 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:24,686 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:24,790 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:24,996 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:25,098 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:25,307 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:25,408 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:25,615 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:25,717 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:25,924 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:26,026 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:26,234 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:26,337 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:26,542 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:26,647 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:26,751 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:26,855 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:27,065 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:27,167 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:27,372 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:27,474 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:27,681 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:27,782 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:27,987 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:28,090 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:28,298 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:28,399 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:28,605 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:28,708 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:28,914 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:29,015 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:29,223 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:29,325 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:29,527 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:29,630 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:29,834 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:29,935 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:30,140 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:30,246 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:30,352 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:30,453 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:30,657 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:30,762 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:30,967 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:31,070 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:31,276 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:31,379 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:31,585 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:31,690 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:31,898 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:32,000 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:32,208 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:32,313 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:32,541 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:32,642 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:32,846 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:32,950 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:33,055 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:33,160 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:33,369 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:33,475 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:33,683 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:33,788 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:33,998 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:34,103 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:34,310 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:34,412 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:34,619 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:34,724 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:34,927 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:35,030 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:35,239 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:35,344 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:35,552 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:35,657 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:35,757 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:35,882 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:36,091 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:36,193 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:36,399 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:36,505 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:36,713 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:36,815 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:37,018 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:37,120 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:37,324 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:37,427 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:37,632 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:37,737 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:37,944 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:38,045 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:38,246 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:38,349 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:38,554 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:38,656 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:38,762 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:38,868 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:39,076 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:39,180 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:39,383 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:39,487 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:39,695 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:39,800 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:40,006 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:40,110 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:40,318 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:40,423 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:40,628 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:40,730 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:40,939 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:41,044 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:41,246 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:41,350 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:41,561 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:41,666 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:41,770 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:41,870 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:42,077 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:42,181 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:42,405 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:42,521 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:42,722 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:42,824 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:43,025 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:43,129 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:43,330 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:43,440 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:43,643 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:43,743 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:43,961 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:44,066 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:44,167 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:44,270 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:44,474 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:44,579 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:44,784 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:44,887 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:45,091 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:45,196 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:33:45,404 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:33:45,504 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
