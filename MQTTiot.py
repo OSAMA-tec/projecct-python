@@ -149,13 +149,54 @@ class MotionSensorBridge:
         self.connected = False
         logging.warning(f"Disconnected from MQTT broker with code: {rc}")
 
+    def process_serial_data(self, line: str) -> None:
+        """Process data received from Arduino"""
+        try:
+            # Parse the text data
+            data = {}
+            line = line.strip()
+            
+            if "Sensor Reading:" in line:
+                value = line.split(":")[-1].strip()
+                data = {
+                    "type": "sensor_reading",
+                    "value": int(value),
+                    "status": "motion" if int(value) == 1 else "no_motion"
+                }
+            elif "Motion Detected!" in line:
+                data = {
+                    "type": "event",
+                    "event": "motion_detected",
+                    "value": 1
+                }
+            elif "System Starting..." in line:
+                data = {
+                    "type": "status",
+                    "status": "system_starting"
+                }
+            elif "Sensor Ready!" in line:
+                data = {
+                    "type": "status",
+                    "status": "sensor_ready"
+                }
+            
+            # Only publish if we have valid data
+            if data:
+                self.publish_data(data)
+            else:
+                logging.debug(f"Ignored message: {line}")
+                
+        except Exception as e:
+            logging.error(f"Error processing data: {e}, Data: {line}")
+
     def publish_data(self, data: Dict[str, Any]) -> None:
         """Publish data to MQTT broker"""
         try:
             # Add timestamp and format data
             payload = {
                 **data,
-                'timestamp': datetime.now().isoformat()
+                'timestamp': datetime.now().isoformat(),
+                'device_id': MQTT_CLIENT_ID
             }
             
             # Publish to MQTT
@@ -172,16 +213,6 @@ class MotionSensorBridge:
         except Exception as e:
             logging.error(f"Error publishing data: {e}")
 
-    def process_serial_data(self, line: str) -> None:
-        """Process data received from Arduino"""
-        try:
-            data = json.loads(line)
-            self.publish_data(data)
-        except json.JSONDecodeError as e:
-            logging.error(f"JSON decode error: {e}, Data: {line}")
-        except Exception as e:
-            logging.error(f"Error processing data: {e}")
-
     def run(self) -> None:
         """Main loop to read from serial and publish to MQTT"""
         logging.info("Starting motion sensor bridge...")
@@ -192,6 +223,7 @@ class MotionSensorBridge:
                     line = self.serial_conn.readline().decode('utf-8').strip()
                     if line:
                         self.process_serial_data(line)
+                        logging.debug(f"Received: {line}")
                 time.sleep(0.1)  # Prevent CPU overload
                 
         except KeyboardInterrupt:

@@ -554,3 +554,465 @@
 2025-01-22 00:34:21,222 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
 2025-01-22 00:34:21,430 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
 2025-01-22 00:34:21,534 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:21,740 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:21,842 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:22,046 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:22,147 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:22,348 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:22,450 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:22,660 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:22,764 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:22,974 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:23,078 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:23,287 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:23,393 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:23,596 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:23,698 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:23,801 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:23,904 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:24,111 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:24,216 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:24,494 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:24,597 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:24,701 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:24,802 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:25,005 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:25,106 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:25,308 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:25,410 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:25,617 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:25,721 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:25,927 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:26,032 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:26,240 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:26,344 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:26,557 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:26,659 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:26,866 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:26,969 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:27,178 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:27,282 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:27,488 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:27,592 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:27,797 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:27,898 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:28,104 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:28,207 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:28,308 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:28,413 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:28,621 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:28,721 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:28,930 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:29,031 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:29,237 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:29,341 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:29,546 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:29,649 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:29,852 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:29,956 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:30,158 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:30,259 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:30,511 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:30,613 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:30,716 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:30,817 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:31,018 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:31,129 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:31,331 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:31,433 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:31,640 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:31,741 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:31,946 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:32,049 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:32,254 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:32,355 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:32,558 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:32,660 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:32,869 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:32,973 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:33,174 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:33,275 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:33,482 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:33,585 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:33,790 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:33,895 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:34,100 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:34,201 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:34,404 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:34,507 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:34,608 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:34,709 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:34,913 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:35,014 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:35,224 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:35,327 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:35,535 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:35,641 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:35,844 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:35,948 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:36,155 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:36,260 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:36,470 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:36,574 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:36,778 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:36,882 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:37,085 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:37,186 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:37,396 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:37,498 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:37,707 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:37,811 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:37,912 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:38,015 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:38,221 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:38,324 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:38,529 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:38,633 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:38,842 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:38,946 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:39,153 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:39,257 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:39,460 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:39,563 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:39,767 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:39,872 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:40,079 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:40,181 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:40,387 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:40,491 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:40,696 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:40,800 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:41,004 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:41,108 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:41,316 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:41,420 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:41,523 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:41,624 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:41,832 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:41,933 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:42,141 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:42,244 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:42,448 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:42,551 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:42,758 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:42,859 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:43,063 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:43,168 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:43,431 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:43,538 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:43,642 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:43,743 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:43,947 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:44,050 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:44,257 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:44,359 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:44,567 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:44,671 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:44,876 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:44,977 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:45,183 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:45,288 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:45,498 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:45,601 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:45,810 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:45,915 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:46,019 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:46,122 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:46,328 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:46,431 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:46,661 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:46,765 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:46,974 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:47,075 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:47,281 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:47,384 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:47,591 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:47,695 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:47,911 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:48,012 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:48,218 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:48,324 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:48,428 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:48,531 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:48,733 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:48,835 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:49,043 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:49,198 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:49,401 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:49,502 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:49,710 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:49,815 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:50,019 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:50,124 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:50,228 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:50,331 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:50,535 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:50,636 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:50,844 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:50,946 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:51,151 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:51,256 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:51,462 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:51,563 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:51,771 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:51,874 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:52,081 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:52,183 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:52,391 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:52,492 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:52,695 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:52,799 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:53,006 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Sensor Reading: 1
+2025-01-22 00:34:53,112 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0), Data: Motion Detected!
+2025-01-22 00:34:53,182 - INFO - Shutting down...
+2025-01-22 00:34:57,625 - INFO - Connecting to MQTT broker: fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud:8883
+2025-01-22 00:34:58,190 - INFO - MQTT client setup completed
+2025-01-22 00:34:58,389 - INFO - Connected to MQTT broker
+2025-01-22 00:35:07,329 - INFO - Serial connection established on /dev/cu.usbserial-1430
+2025-01-22 00:35:07,329 - INFO - Serial connection established successfully
+2025-01-22 00:35:07,329 - INFO - Starting motion sensor bridge...
+2025-01-22 00:35:07,331 - INFO - Published: {'type': 'status', 'status': 'system_starting', 'timestamp': '2025-01-22T00:35:07.330447', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:09,507 - INFO - Published: {'type': 'status', 'status': 'sensor_ready', 'timestamp': '2025-01-22T00:35:09.507033', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:09,611 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:09.611593', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:09,716 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:09.715843', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:09,820 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:09.820495', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:09,925 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:09.924783', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,029 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:10.028984', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,133 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:10.133342', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,341 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:10.341227', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,443 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:10.442993', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,650 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:10.650566', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,755 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:10.755402', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:10,964 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:10.964102', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,066 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:11.066361', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,272 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:11.271772', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,375 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:11.374953', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,579 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:11.579739', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,681 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:11.681037', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,886 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:11.886125', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:11,991 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:11.991244', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:12,200 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:12.200560', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:12,304 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:12.304292', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:12,514 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:12.514092', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:12,618 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:12.618536', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:12,723 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:12.723060', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:12,827 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:12.827281', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:13,036 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:35:13.036430', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:13,141 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:35:13.141087', 'device_id': 'securespace_bridge'}
+2025-01-22 00:35:13,179 - INFO - Shutting down...
+2025-01-22 00:41:06,813 - INFO - Connecting to MQTT broker: fdd7ee37257b432baf0443b0e7dd5667.s1.eu.hivemq.cloud:8883
+2025-01-22 00:41:07,371 - INFO - MQTT client setup completed
+2025-01-22 00:41:07,628 - INFO - Connected to MQTT broker
+2025-01-22 00:41:16,876 - INFO - Serial connection established on /dev/cu.usbserial-1430
+2025-01-22 00:41:16,877 - INFO - Serial connection established successfully
+2025-01-22 00:41:16,877 - INFO - Starting motion sensor bridge...
+2025-01-22 00:41:16,877 - INFO - Published: {'type': 'status', 'status': 'system_starting', 'timestamp': '2025-01-22T00:41:16.877662', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,029 - INFO - Published: {'type': 'status', 'status': 'sensor_ready', 'timestamp': '2025-01-22T00:41:19.028654', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,132 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:19.131900', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,238 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:19.237757', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,342 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:19.342516', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,448 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:19.447788', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,657 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:19.657171', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,757 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:19.757808', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:19,961 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:19.961420', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,067 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:20.066932', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,173 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:20.173674', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,275 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:20.274938', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,481 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:20.480961', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,588 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:20.588619', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,795 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:20.795573', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:20,896 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:20.896775', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:21,102 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:21.102229', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:21,207 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:21.207403', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:21,412 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:21.412600', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:21,517 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:21.517350', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:21,724 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:21.724115', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:21,828 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:21.828318', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,034 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:22.034252', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,137 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:22.136365', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,342 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:22.342111', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,443 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:22.442926', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,645 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:22.645160', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,750 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:22.750157', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:22,957 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:22.957155', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,058 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:23.058480', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,262 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:23.262374', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,367 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:23.367741', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,468 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:23.468756', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,574 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:23.574651', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,783 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:23.783443', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:23,885 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:23.884845', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:24,093 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:24.093807', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:24,195 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:24.194816', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:24,397 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:24.396846', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:24,499 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:24.498819', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:24,704 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:24.703913', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:24,807 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:24.807448', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,008 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:25.008416', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,110 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:25.110211', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,313 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:25.313213', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,414 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:25.414513', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,619 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:25.619398', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,720 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:25.720272', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:25,930 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:25.930111', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,045 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:26.044848', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,252 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:26.252610', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,357 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:26.357243', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,563 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:26.563056', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,664 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:26.664167', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,870 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:26.870519', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:26,976 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:26.976018', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:27,080 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:27.080324', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:27,181 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:27.181506', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:27,387 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:27.387268', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:27,488 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:27.488572', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:27,694 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:27.694275', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:27,797 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:27.797771', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,003 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:28.003579', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,107 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:28.107267', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,313 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:28.313647', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,422 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:28.422072', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,626 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:28.626455', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,730 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:28.729900', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:28,934 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:28.934176', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,045 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:29.045561', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,254 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:29.254376', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,357 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:29.357315', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,478 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:29.478132', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,578 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:29.578758', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,781 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:29.781070', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:29,885 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:29.885537', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:30,091 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:30.091050', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:30,197 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:30.197173', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:30,398 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:30.398268', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:30,518 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:30.518521', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:30,727 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:30.727272', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:30,831 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:30.831725', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,036 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:31.036502', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,137 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:31.137354', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,344 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:31.343901', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,446 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:31.445849', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,655 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:31.655318', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,761 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:31.760867', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:31,970 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:31.970030', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,071 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:32.071268', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,272 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:32.272605', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,374 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:32.374711', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,479 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:32.479056', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,579 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:32.579758', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,784 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:32.783901', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:32,884 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:32.884555', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:33,092 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:33.092336', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:33,193 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:33.193575', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:33,398 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:33.398156', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:33,499 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:33.499487', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:33,701 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:33.701740', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:33,803 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:33.802948', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,064 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:34.063615', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,168 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:34.168200', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,376 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:34.376048', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,481 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:34.481249', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,583 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:34.583098', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,687 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:34.687295', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:34,896 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:34.896527', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,002 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:35.002087', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,216 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:35.216142', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,321 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:35.321180', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,528 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:35.528354', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,636 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:35.636763', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,849 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:35.848863', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:35,953 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:35.953743', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,159 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:36.159528', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,261 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:36.261453', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,475 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:36.475177', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,576 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:36.575973', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,778 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:36.777981', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,881 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:36.881416', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:36,986 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:36.985815', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:37,089 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:37.089236', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:37,293 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:37.292868', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:37,405 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:37.405036', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:37,610 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:37.609821', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:37,711 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:37.711862', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:37,949 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:37.949441', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,051 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:38.051735', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,240 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:38.235675', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,341 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:38.341615', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,546 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:38.545856', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,647 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:38.646812', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,850 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:38.850404', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:38,953 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:38.952921', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,157 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:39.157397', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,262 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:39.262274', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,468 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:39.467876', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,570 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:39.570784', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,781 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:39.781086', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,884 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:39.883749', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:39,990 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:39.989459', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:40,103 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:40.102893', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:40,310 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:40.309913', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:40,410 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:40.410612', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:40,615 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:40.615323', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:40,720 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:40.720062', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:40,927 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:40.927783', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,033 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:41.032830', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,241 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:41.240870', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,344 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:41.344214', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,545 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:41.545793', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,649 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:41.649682', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,851 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:41.850833', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:41,952 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:41.952302', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,161 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:42.161168', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,266 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:42.266028', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,473 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:42.472872', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,578 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:42.578366', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,786 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:42.786040', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,888 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:42.888592', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:42,995 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:42.995351', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:43,096 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:43.096480', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:43,298 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:43.297981', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:43,403 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:43.402955', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:43,607 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:43.607546', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:43,708 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:43.708586', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:43,912 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:43.912726', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,017 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:44.017599', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,224 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:44.223910', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,328 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:44.328116', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,535 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:44.535109', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,640 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:44.640365', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,847 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:44.846724', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:44,951 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:44.951716', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,158 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:45.158858', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,263 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:45.263161', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,470 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:45.469947', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,574 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:45.573822', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,782 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:45.782446', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,885 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:45.885082', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:45,988 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:45.988604', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:46,093 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:46.093738', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:46,297 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:46.297780', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:46,401 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:46.401265', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:46,607 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:46.607409', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:46,712 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:46.711967', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:46,917 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:46.917410', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,021 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:47.021856', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,226 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:47.225713', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,330 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:47.330055', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,535 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:47.535523', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,639 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:47.639550', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,847 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:47.846877', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:47,951 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:47.951640', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,157 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:48.157340', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,258 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:48.258281', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,487 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:48.487315', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,588 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:48.588663', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,793 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:48.792906', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,896 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:48.896670', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:48,999 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:48.999330', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:49,104 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:49.104189', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:49,307 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:49.307560', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:49,409 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:49.409513', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:49,617 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:49.617650', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:49,721 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:49.721728', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:49,929 - INFO - Published: {'type': 'sensor_reading', 'value': 1, 'status': 'motion', 'timestamp': '2025-01-22T00:41:49.929117', 'device_id': 'securespace_bridge'}
+2025-01-22 00:41:50,030 - INFO - Published: {'type': 'event', 'event': 'motion_detected', 'value': 1, 'timestamp': '2025-01-22T00:41:50.030308', 'device_id': 'securespace_bridge'}
